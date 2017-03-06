@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    line-height: 24px;
+    color:#555;
+    background: #fcfcfc;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfloat:after {
+    content: "";
+    display: table;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+		.box{	
+			height:900px;
+			padding:20px;
+			background:#eee;
+			border:1px solid #999;
+			margin:30px 50px;
+			position:relative;
+		}
+		.left{
+			width:200px;
+			border:1px solid #999;
+			background:#fff;
+			padding:20px;
+			overflow:hidden;
+			float:left;
+			box-sizing:border-box;
+		}
+		.logo{
+			width:80px;
+			height:80px;
+			border:1px solid #999;
+			background:#999;
+			float:left;
+		}
+		.left>p{
+			float:left;
+			margin-top:-5px;
+			margin-left:20px;
+		}
+		.middle{		
+			margin-left: 220px;
+			margin-right:140px;
+			border:1px solid #999;
+			background:#fff;
+		}
+		.right{
+			width:120px;
+			border:1px solid #999;
+			background:#fff;
+			float:right;
+			
+		}
+		.right img{
+			display:block;
+			margin:20px;
+		}
